@@ -40,6 +40,8 @@ h1 {
 }
 .item.dragging {
     opacity: 0.5;
+    border: 1px solid #FF0;
+    color: #FF0;
 }
 .areas {
     width: 450px;
@@ -48,6 +50,11 @@ h1 {
 }
 .areas.correct .area {
     border: 2px solid #00FF00;
+   
+}
+.areas.false .area {
+    border: 2px solid #ff000d;
+   
 }
 .area {
     width: 150px;
